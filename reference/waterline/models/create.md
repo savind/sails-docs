@@ -2,7 +2,7 @@
 
 Create a record in the database.
 
-```javascript
+```javascripthttps://github.com/balderdashy/sails-docs/blob/master/reference/waterline/models/create.md
 Something.create(values).exec(function (err, records) {
 
 });
@@ -19,7 +19,7 @@ Something.create(values).exec(function (err, records) {
 |   |     Argument        | Type                | Details |
 |---|:--------------------|---------------------|:---------------------------------------------------------------------------------|
 | 1 |    _err_            | ((Error?))          | The error that occurred, or `null` if there were no errors.  See below for an example of how to negotiate validation errors (e.g. attempting to insert a record that would violate a uniqueness constraint)
-| 2 |    newRecord        | ((array))           | The newly-created record, with its primary key (usually `id`) set.
+| 2 |    newRecord        | ((dictionary))           | The newly-created record, with its primary key (usually `id`) set.
 
 
 ### Example
